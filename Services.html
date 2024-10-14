@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .service-icon {
+            font-size: 50px;
+            color: #007bff;
+        }
+        .service-card {
+            transition: transform 0.2s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="service.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card text-center mb-4">
+                    <div class="card-body">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Building responsive and high-performance websites tailored to your needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center mb-4">
+                    <div class="card-body">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h5 class="card-title">Graphic Design</h5>
+                        <p class="card-text">Creating stunning visuals that effectively communicate your brand message.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center mb-4">
+                    <div class="card-body">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h5 class="card-title">Mobile App Development</h5>
+                        <p class="card-text">Developing user-friendly mobile applications for iOS and Android platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

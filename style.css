@@ -1,0 +1,31 @@
+.card-img-top {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust the font size */
+}
+
+.card-text {
+    font-size: 1rem; /* Adjust the font size */
+}
+/* Custom table styles */
+.table-custom {
+    border: 2px solid #007bff; /* Blue border for the table */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.table-custom thead {
+    background-color: #007bff; /* Blue background for the header */
+    color: white; /* White text color */
+}
+
+.table-custom tbody tr:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+}
+
+.table-custom th, .table-custom td {
+    padding: 1rem; /* Add padding to table cells */
+}
+
